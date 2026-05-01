@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+
+    <style>
+    
+        body {
+            background-color: lightblue;
+            font-family: Arial;
+            padding: 20px;
+        }
+
+        
+        h1 {
+    text-align: center;
+    color: darkblue;
+    text-transform: uppercase;
+}
+
+        h2 {
+            color: darkgreen;
+        }
+
+        img {
+            width: 200px;
+            border-radius: 10px;
+        }
+
+        input {
+            padding: 8px;
+            margin: 5px;
+        }
+
+        button {
+            background-color: green;
+            color: white;
+            padding: 10px;
+            border: none;
+        }
+    <style>
+img {
+    display: block;
+    margin: auto;
+}
+
+
+</style>
+    
+    </style>
+
+</head>
+
+<body>
+
+    <h1>My Portfolio</h1>
+
+    <h2>About Me</h2>
+    <p>My name is JOHNSON....I completed B.Sc Computers. I am learning web development.</p>
+
+    <h2>My Skills</h2>
+    <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>Python</li>
+</ul>
+
+    <h2>My Photo</h2>
+    <style>
+img {
+    display: block;
+    margin: auto;
+}
+</style>
+    <img src="myphoto.jpg">
+
+    <h2>Contact Me</h2>
+
+    <form>
+        <label>Name:</label><br>
+        <input type="text" id="name" placeholder="Enter your name"><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" placeholder="Enter your email"><br><br>
+
+        <button onclick="showMessage()">Submit</button>
+    </form>
+
+    <script>
+    function showMessage() {
+        var name = document.getElementById("name").value;
+        alert("Thank you " + name + "!");
+    }
+    </script>
+
+</body>
+</html>
